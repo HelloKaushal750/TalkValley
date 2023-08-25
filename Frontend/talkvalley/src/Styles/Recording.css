@@ -1,0 +1,18 @@
+.recording{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: -30px;
+}
+.start_btn{
+    width: 40%;
+    border: 1px solid #c3073f;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: #c3073f;
+}

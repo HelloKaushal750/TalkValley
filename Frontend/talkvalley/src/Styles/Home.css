@@ -1,0 +1,35 @@
+.home_page{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header{
+    /* background-color: #4E4E50; */
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #C3073F;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.header>button{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+}
+.btn{
+    color: white;
+    background-color: #C3073F;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 20px;
+}
